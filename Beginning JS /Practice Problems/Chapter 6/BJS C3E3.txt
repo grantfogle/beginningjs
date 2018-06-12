@@ -1,0 +1,19 @@
+<html>
+
+<head>
+	<title>Beginning JavaScript: Chapter 3 Exercise 2</title>
+</head>
+
+<body>
+	<script type='text/JavaScript'>
+	function writeTimesTable(timesTable, timesStart, timesEnd){
+		for(;timesStart<=timesEnd; timesStart++) {
+			document.write(timesTable + ' * ' + timesStart + " = " + (timesStart * timesEnd) + '<br />');
+		}
+	}
+	writeTimesTable(4, 4, 9);
+
+	</script>
+
+</body>
+</html>

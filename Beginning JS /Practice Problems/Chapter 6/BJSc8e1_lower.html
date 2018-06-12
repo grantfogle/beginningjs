@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Chapter 8: Example 1 Lower Frame</title>
+	<script type='text/javascript'>
+	function window_onload()
+	{
+		alert("The name of the lower frame's window object is " + window.name);
+		
+		alert("The location of lowerWindow's parent is " + window.parent.location.href);
+	}
+	</script>
+</head>
+
+<body onload='window_onload()'>
+	<p>
+		Lower Frame
+	</p>
+</body>
+</html>

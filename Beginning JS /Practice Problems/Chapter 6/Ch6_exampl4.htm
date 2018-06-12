@@ -1,0 +1,21 @@
+<!DOCTYPE html Public>
+<html>
+<head>
+	<title>Chapter 6: Example 4</title>
+</head>
+<body>
+	<script type="text/javaScript">
+	function linkSomePage_onclick() {
+		alert('This link is going nowhere');
+		return false;
+	}
+	</script>
+	<a href='somepage.htm' name='linkSomePage'>
+		Click Me
+	</a>
+	<script type='text/javaScript'>
+	window.document.links[0].onclick = linkSomePage_onclick;
+	</script>
+
+</body>
+</html>

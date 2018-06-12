@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+	var degFahren = Number(prompt("Enter the degrees in F", 32));
+	var degCent;
+		
+	degCent = 5/9 * (degFahren - 32);
+	
+	document.write(degFahren + "\xb0 Fahrenheit is " + degCent + "\xB0 centigrade<br />")
+	
+	if (degCent < 0)
+	{
+		document.write("That's below the freezing point of water");
+	}
+	
+	if (degCent == 100)
+		document.write("That's the boiling point of water");
+	
+</script>
+
+</body>
+</html>
